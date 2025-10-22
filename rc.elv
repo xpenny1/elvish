@@ -1,5 +1,4 @@
-fn hx {|@args| helix $@args}
-fn l {|@args| ls -lA $@args}
+eval (slurp < ~/.config/elvish/aliases.elv)
 
 # Completions via Carapace (https://carapace.sh/)
 set-env CARAPACE_BRIDGES 'zsh,fish,bash,inshellisense' # optional
