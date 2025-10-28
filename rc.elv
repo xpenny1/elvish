@@ -5,4 +5,5 @@ eval (slurp < ~/.config/elvish/env.elv)
 set-env CARAPACE_BRIDGES 'zsh,fish,bash,inshellisense' # optional
 eval (carapace _carapace|slurp)
 
+# Zoxide (https://github.com/ajeetdsouza/zoxide)
 eval (zoxide init elvish | slurp)
