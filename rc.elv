@@ -1,3 +1,6 @@
+use re
+use flag
+
 eval (slurp < ~/.config/elvish/aliases.elv)
 eval (slurp < ~/.config/elvish/env.elv)
 eval (slurp < ~/.config/elvish/abbreviations.elv)
