@@ -36,6 +36,7 @@ alias gco { |@args|
   }
 }
 
-completable-alias doc doc:show
+alias doc { |@args| doc:show $@args }
+complete-with doc doc:show
 #alias doc { |@args| doc:show $@args }
 #complete-with doc doc:show
