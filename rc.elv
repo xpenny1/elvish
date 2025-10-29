@@ -1,5 +1,8 @@
 use re
 use flag
+use md
+use str
+use doc
 
 eval (slurp < ~/.config/elvish/aliases.elv)
 eval (slurp < ~/.config/elvish/env.elv)
