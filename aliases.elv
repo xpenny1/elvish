@@ -26,7 +26,8 @@ completable-alias gr git rebase
 completable-alias gsp git stash
 completable-alias gs git status 
 completable-alias gch git checkout
-completable-alias gp git pull
+completable-alias gl git pull
+completable-alias gs git push
 
 alias gco { |@args|
   if (> (count $args) 0) {
